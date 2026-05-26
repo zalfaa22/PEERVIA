@@ -66,9 +66,11 @@ export default function Navbar() {
         </nav>
 
         {/* BUTTON */}
-        <button className="bg-violet-500 hover:bg-violet-600 transition text-white px-6 py-3 rounded-xl font-semibold">
-          Masuk
-        </button>
+<Link href="/auth/login">
+  <button className="bg-violet-500 hover:bg-violet-600 transition text-white px-6 py-3 rounded-xl font-semibold">
+    Masuk
+  </button>
+</Link>
       </div>
     </header>
   );
